@@ -1,0 +1,182 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #DDE2C6;
+}
+
+header {
+    background-color: #132A13;
+    color:#b0c975;
+    box-shadow: 22px 12px 12px 6px rgba(0,0,0,0.5); 
+
+}
+
+
+h3 {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+nav { 
+    background-color: #799e24;
+    
+    box-shadow: 22px 12px 12px 6px rgba(0,0,0,0.5); 
+}
+
+nav a {
+    margin: 0 2em;
+}
+
+a {
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 1em;
+}
+
+
+a,.nav-item a {
+    color: #303525;
+    font-size: 1.3em;
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+a:hover,.nav-item a:hover {
+    font-size: 1.7em;
+    color:#bcce93;
+}
+
+
+.principal {
+    height: 65vh;
+    background-color:#090C02;
+    color: #bcce93;
+    box-shadow: 22px 12px 12px 6px rgba(0,0,0,0.5); 
+}
+
+
+.scroller { 
+    overflow-y: scroll;
+    scrollbar-3dlight-color: rgb(114, 243, 183) green;
+    scrollbar-width: thin;
+}
+
+.tp {
+    margin-bottom: 1em;
+}
+
+.tp img {
+    width: 100%;
+    overflow-y: scroll;
+}
+
+
+footer {
+    height: 6vh;
+    background-color: #132A13;
+    box-shadow: 22px 12px 12px 6px rgba(0,0,0,0.5); 
+}
+
+#fin {
+    height: 65vh;
+}
+
+#presentation, #competences, #formation, #realisations, #contact {
+    margin-bottom: 15vh;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 2em;
+    right: 3em;
+    font-size: 2em;
+    color: white;
+    
+     display: none; 
+}
+
+
+
+/*--------------------------media queries------------------------------*/
+
+@media (min-width:576px){
+    h3, .principal {
+        font-size: 1.3em;
+    }
+
+    ul .nav-link {font-size: 1.5em;}
+
+    a:hover,.nav-item a:hover {
+        font-size: 1.9em;
+    }
+    
+}
+
+@media (min-width:768px){
+    
+    h3, .principal {
+        font-size: 1.4em;
+    }
+
+    ul .nav-link {font-size: 1.7em;}
+
+    a:hover,.nav-item a:hover {
+        font-size: 2.1em;
+    }
+}
+
+@media (min-width:992px) {
+    
+    h3, .principal {
+        font-size: 1.5em;
+    }
+
+    nav a {
+        margin: 0 1em;
+    }
+
+    ul .nav-link {font-size: 1.3em;}
+
+    a:hover,.nav-item a:hover {
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width:1200px) {
+
+    h3, .principal {
+        font-size: 1.6em;
+    }
+
+    nav a {
+        margin: 0 1.3em;
+    }
+
+    ul .nav-link {font-size: 1.4em;}
+
+    a:hover,.nav-item a:hover {
+        font-size: 1.7em;
+    }
+}
+
+@media (min-width:1400px) {
+
+    h3, .principal {
+        font-size: 1.6em;
+    }
+
+    nav a {
+        margin: 0 1.6em;
+    }
+
+    ul .nav-link {font-size: 1.5em;}
+
+    a:hover,.nav-item a:hover {
+        font-size: 1.9em;
+    }
+}
